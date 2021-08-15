@@ -2,7 +2,8 @@ const { readFileSync } = require("fs");
 
 const surpriseArray = readFileSync("./src/surprise.txt")
   .toString()
-  .split("--Split--");
+  .split("--split--")
+  .map(x => x.trim());
 
 const surprise = Buffer.from(
   surpriseArray[surpriseArray.length * Math.random() | 0],
