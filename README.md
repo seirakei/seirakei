@@ -64,3 +64,10 @@ For a surprise, run the [`src/index.js`](./src/index.js) file.
 ```sh
 $ node src/index.js
 ```
+
+# Social
+
+> Check out this links:
+* [Portfolio](https://seirakei.github.io/)
+* [Twitter](https://twitter.com/__seirakei)
+* [Discord](https://discordapp.com/users/874868186904928316)
